@@ -32,6 +32,6 @@ with(data, {
            bty = "n", pt.cex = 1, cex = 0.95, 
            legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
     }
-    plot(datetime, Global_reactive_power, type = "l", ylim = c(0, 0.5))
+    plot(datetime, Global_reactive_power, type = "l")
     })
 dev.off()
